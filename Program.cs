@@ -11,7 +11,10 @@ namespace Perfect_numbers_project
             
             Console.Write("Enter the number to stop counting to: ");
             int num2 = int.Parse(Console.ReadLine());
-
+            if (num1 < 1)
+            {
+                num1 = 1;   //if the user enterd negative or zero ,shift num1 to 1 instead
+            }
             
             for (int c=num1;c<=num2;c++)
             {
