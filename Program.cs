@@ -7,7 +7,7 @@ namespace Perfect_numbers_project
         static void Main(string[] args)
         {
             Console.Write("Enter the number to start counting from: ");
-            int num1=int.Parse(Console.ReadLine());
+            int num1  = int.Parse(Console.ReadLine());
             
             Console.Write("Enter the number to stop counting to: ");
             int num2 = int.Parse(Console.ReadLine());
